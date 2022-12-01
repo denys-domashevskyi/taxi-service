@@ -22,7 +22,7 @@ The application has H-tier architecture and is divided into 3 logical parts
 (Presentation layer, Business logic layer, Data logic layer).
 Also, it has Authentication filter, if somebody didn't log in he can't get access to application features.
 
-## ⚡️Features of the program  ⚡️
+## ⚡Features of the program⚡
 
 | Feature                 | Query                  |
 |-------------------------|------------------------|
