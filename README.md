@@ -6,6 +6,7 @@
   <summary> <h4> Table Content </h4>  </summary>
     <p align="center" style="color: #f7c007">
         • <a href="#-description-" style="color: #a8b6c5">Description</a>
+        • <a href="#-description-" style="color: #a8b6c5">Description</a>
         • <a href="#features-of-the-program-" style="color: #a8b6c5">Features of the program</a><br>
         • <a href="#-project-structure-" style="color: #a8b6c5">Project Structure</a>
         • <a href="#-technologies-" style="color: #a8b6c5">Technologies</a>
