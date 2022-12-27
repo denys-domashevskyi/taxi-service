@@ -6,7 +6,7 @@
   <summary> <h4> Table Content </h4>  </summary>
     <p align="center" style="color: #f7c007">
         • <a href="#-description-" style="color: #a8b6c5">Description</a>
-        • <a href="#features-of-the-program-" style="color: #a8b6c5">Features of the program</a> <br>
+        • <a href="#-features-of-the-program-" style="color: #a8b6c5">Features of the program</a> <br>
         • <a href="#-project-structure-" style="color: #a8b6c5">Project Structure</a>
         • <a href="#-technologies-" style="color: #a8b6c5">Technologies</a>
         • <a href="#-screenshots-" style="color: #a8b6c5">Screenshots</a> 
@@ -22,7 +22,7 @@ The application has H-tier architecture and is divided into 3 logical parts
 (Presentation layer, Business logic layer, Data logic layer).
 Also, it has Authentication filter, if somebody didn't log in he can't get access to application features.
 
-## ⚡Features of the program⚡
+## ⚡ Features of the program ⚡
 
 | Feature                 | Query                  |
 |-------------------------|------------------------|
