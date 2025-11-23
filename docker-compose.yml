@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  mysql_db:
+    image: mysql:8.0
+    container_name: mysql_db
+    environment:
+      MYSQL_DATABASE: taxi
+      MYSQL_ROOT_PASSWORD: 1234
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./src/main/resources/init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
+    networks:
+      - app-network
+
+  java_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: java_app
+    ports:
+      - "8080:8080"
+    depends_on:
+        - mysql_db
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
